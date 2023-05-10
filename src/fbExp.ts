@@ -1,28 +1,23 @@
-    // type fizzBuzzType={
-    //     number:number,
-    //     text:string
-    // }
-    // // 
-
-    // function fizzBuzz (countEnd:number,...rest:fizzBuzzType[] ):void{
-    //     const arr=[...rest]
-        
-    //     for(let i=1;i<=countEnd;i++){
-    //         let output='';
-    //         if(arr.every((el:fizzBuzzType)=>{
-    //             return i%el.number===0
-    //         })){
-    //         output =arr.map((el:fizzBuzzType)=>el.text).join('')
-    //         }else{
-    //         arr.map((el:fizzBuzzType)=>{
-    //             if(i%el.number===0){
-    //                 output=output+el.text
-    //             }
-    //         })
-    //         }
+            // type fizzBuzzType={
+            //     number:number,
+            //     text:string
+            // }
             
-    //         output?console.log(output):console.log(i)
-    //     }
-        
-    // }
-    // fizzBuzz(100,{number:3,text:'Fizz'}, {number:5,text:'Buzz'},{number:2,text:'Tuzz'})
+
+            // function fizzBuzz (countEnd:number,...rest:fizzBuzzType[] ):void{
+            //     const arr=[...rest]
+                
+            //     for(let i=1;i<=countEnd;i++){
+            //         let output='';
+                
+            //         arr.map((el:fizzBuzzType)=>{
+            //             if(i%el.number===0){
+            //                 output=output+el.text
+            //             }
+            //         })
+                    
+            //         output?console.log(output):console.log(i)
+            //     }
+                
+            // }
+            // fizzBuzz(100,{number:3,text:'Fizz'}, {number:5,text:'Buzz'},{number:2,text:'Tuzz'})
