@@ -1,18 +1,28 @@
     // type fizzBuzzType={
-    //     [x: string]: number;
+    //     number:number,
+    //     text:string
     // }
-    // // create custom type 
+    // // 
 
-    // function fizzBuzz (countEnd:number,rules:fizzBuzzType ):void{    
+    // function fizzBuzz (countEnd:number,...rest:fizzBuzzType[] ):void{
+    //     const arr=[...rest]
+        
     //     for(let i=1;i<=countEnd;i++){
     //         let output='';
-    //         for (const key in rules) {
-    //             if (i % rules[key] === 0) {
-    //             output += key;
+    //         if(arr.every((el:fizzBuzzType)=>{
+    //             return i%el.number===0
+    //         })){
+    //         output =arr.map((el:fizzBuzzType)=>el.text).join('')
+    //         }else{
+    //         arr.map((el:fizzBuzzType)=>{
+    //             if(i%el.number===0){
+    //                 output=output+el.text
     //             }
+    //         })
     //         }
+            
     //         output?console.log(output):console.log(i)
     //     }
         
     // }
-    // fizzBuzz(100,{Fizz:3,Buzz:5,Tuzz:2})
+    // fizzBuzz(100,{number:3,text:'Fizz'}, {number:5,text:'Buzz'},{number:2,text:'Tuzz'})
