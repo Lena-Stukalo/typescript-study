@@ -39,12 +39,8 @@ class MyHouse extends House {
     }
 }
 const key = new Key();
-const notKey =new Key();
 const house = new MyHouse(key);
 const person = new Person(key);
-const notPerson= new Person(notKey)
 house.openDoor(person.getKey());
 house.comeIn(person);
-house.openDoor(notPerson.getKey());
-house.comeIn(notPerson);
 //# sourceMappingURL=house.js.map
